@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B67742B1A9CE8F400C7023A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67742A1A9CE8F400C7023A /* AppDelegate.swift */; };
+		9B67742D1A9CE8F400C7023A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67742C1A9CE8F400C7023A /* ViewController.swift */; };
+		9B6774301A9CE8F400C7023A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B67742E1A9CE8F400C7023A /* Main.storyboard */; };
+		9B6774321A9CE8F400C7023A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6774311A9CE8F400C7023A /* Images.xcassets */; };
+		9B6774351A9CE8F400C7023A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B6774331A9CE8F400C7023A /* LaunchScreen.xib */; };
+		9B6774411A9CE8F400C7023A /* Mitosis___MeiosisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6774401A9CE8F400C7023A /* Mitosis___MeiosisTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B67743B1A9CE8F400C7023A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B67741D1A9CE8F400C7023A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B6774241A9CE8F400C7023A;
+			remoteInfo = "Mitosis & Meiosis";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B6774251A9CE8F400C7023A /* Mitosis & Meiosis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mitosis & Meiosis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6774291A9CE8F400C7023A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B67742A1A9CE8F400C7023A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B67742C1A9CE8F400C7023A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B67742F1A9CE8F400C7023A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B6774311A9CE8F400C7023A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9B6774341A9CE8F400C7023A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9B67743A1A9CE8F400C7023A /* Mitosis & MeiosisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mitosis & MeiosisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B67743F1A9CE8F400C7023A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6774401A9CE8F400C7023A /* Mitosis___MeiosisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mitosis___MeiosisTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B6774221A9CE8F400C7023A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6774371A9CE8F400C7023A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B67741C1A9CE8F400C7023A = {
+			isa = PBXGroup;
+			children = (
+				9B6774271A9CE8F400C7023A /* Mitosis & Meiosis */,
+				9B67743D1A9CE8F400C7023A /* Mitosis & MeiosisTests */,
+				9B6774261A9CE8F400C7023A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B6774261A9CE8F400C7023A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6774251A9CE8F400C7023A /* Mitosis & Meiosis.app */,
+				9B67743A1A9CE8F400C7023A /* Mitosis & MeiosisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B6774271A9CE8F400C7023A /* Mitosis & Meiosis */ = {
+			isa = PBXGroup;
+			children = (
+				9B67742A1A9CE8F400C7023A /* AppDelegate.swift */,
+				9B67742C1A9CE8F400C7023A /* ViewController.swift */,
+				9B67742E1A9CE8F400C7023A /* Main.storyboard */,
+				9B6774311A9CE8F400C7023A /* Images.xcassets */,
+				9B6774331A9CE8F400C7023A /* LaunchScreen.xib */,
+				9B6774281A9CE8F400C7023A /* Supporting Files */,
+			);
+			path = "Mitosis & Meiosis";
+			sourceTree = "<group>";
+		};
+		9B6774281A9CE8F400C7023A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B6774291A9CE8F400C7023A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B67743D1A9CE8F400C7023A /* Mitosis & MeiosisTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B6774401A9CE8F400C7023A /* Mitosis___MeiosisTests.swift */,
+				9B67743E1A9CE8F400C7023A /* Supporting Files */,
+			);
+			path = "Mitosis & MeiosisTests";
+			sourceTree = "<group>";
+		};
+		9B67743E1A9CE8F400C7023A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B67743F1A9CE8F400C7023A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B6774241A9CE8F400C7023A /* Mitosis & Meiosis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6774441A9CE8F400C7023A /* Build configuration list for PBXNativeTarget "Mitosis & Meiosis" */;
+			buildPhases = (
+				9B6774211A9CE8F400C7023A /* Sources */,
+				9B6774221A9CE8F400C7023A /* Frameworks */,
+				9B6774231A9CE8F400C7023A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mitosis & Meiosis";
+			productName = "Mitosis & Meiosis";
+			productReference = 9B6774251A9CE8F400C7023A /* Mitosis & Meiosis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B6774391A9CE8F400C7023A /* Mitosis & MeiosisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6774471A9CE8F400C7023A /* Build configuration list for PBXNativeTarget "Mitosis & MeiosisTests" */;
+			buildPhases = (
+				9B6774361A9CE8F400C7023A /* Sources */,
+				9B6774371A9CE8F400C7023A /* Frameworks */,
+				9B6774381A9CE8F400C7023A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B67743C1A9CE8F400C7023A /* PBXTargetDependency */,
+			);
+			name = "Mitosis & MeiosisTests";
+			productName = "Mitosis & MeiosisTests";
+			productReference = 9B67743A1A9CE8F400C7023A /* Mitosis & MeiosisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B67741D1A9CE8F400C7023A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "G.S. Software";
+				TargetAttributes = {
+					9B6774241A9CE8F400C7023A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					9B6774391A9CE8F400C7023A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9B6774241A9CE8F400C7023A;
+					};
+				};
+			};
+			buildConfigurationList = 9B6774201A9CE8F400C7023A /* Build configuration list for PBXProject "Mitosis & Meiosis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B67741C1A9CE8F400C7023A;
+			productRefGroup = 9B6774261A9CE8F400C7023A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B6774241A9CE8F400C7023A /* Mitosis & Meiosis */,
+				9B6774391A9CE8F400C7023A /* Mitosis & MeiosisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B6774231A9CE8F400C7023A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6774301A9CE8F400C7023A /* Main.storyboard in Resources */,
+				9B6774351A9CE8F400C7023A /* LaunchScreen.xib in Resources */,
+				9B6774321A9CE8F400C7023A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6774381A9CE8F400C7023A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B6774211A9CE8F400C7023A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B67742D1A9CE8F400C7023A /* ViewController.swift in Sources */,
+				9B67742B1A9CE8F400C7023A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6774361A9CE8F400C7023A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6774411A9CE8F400C7023A /* Mitosis___MeiosisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B67743C1A9CE8F400C7023A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B6774241A9CE8F400C7023A /* Mitosis & Meiosis */;
+			targetProxy = 9B67743B1A9CE8F400C7023A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B67742E1A9CE8F400C7023A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B67742F1A9CE8F400C7023A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B6774331A9CE8F400C7023A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6774341A9CE8F400C7023A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B6774421A9CE8F400C7023A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B6774431A9CE8F400C7023A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B6774451A9CE8F400C7023A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mitosis & Meiosis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B6774461A9CE8F400C7023A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mitosis & Meiosis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9B6774481A9CE8F400C7023A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mitosis & MeiosisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mitosis & Meiosis.app/Mitosis & Meiosis";
+			};
+			name = Debug;
+		};
+		9B6774491A9CE8F400C7023A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mitosis & MeiosisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mitosis & Meiosis.app/Mitosis & Meiosis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B6774201A9CE8F400C7023A /* Build configuration list for PBXProject "Mitosis & Meiosis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6774421A9CE8F400C7023A /* Debug */,
+				9B6774431A9CE8F400C7023A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6774441A9CE8F400C7023A /* Build configuration list for PBXNativeTarget "Mitosis & Meiosis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6774451A9CE8F400C7023A /* Debug */,
+				9B6774461A9CE8F400C7023A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B6774471A9CE8F400C7023A /* Build configuration list for PBXNativeTarget "Mitosis & MeiosisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6774481A9CE8F400C7023A /* Debug */,
+				9B6774491A9CE8F400C7023A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B67741D1A9CE8F400C7023A /* Project object */;
+}
